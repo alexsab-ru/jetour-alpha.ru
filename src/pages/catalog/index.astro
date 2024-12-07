@@ -1,0 +1,94 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
+import { SITE_NAME, BRAND, LEGAL_CITY_WHERE } from "@/const";
+import CarItem from "@/components/Cars/Item.astro";
+import SortSelect from "@/components/Cars/SortSelect.astro";
+const rawCars = await getCollection("cars");
+let cars: any, image: string, models = [];
+import { getRandomInt, declOfNums } from "@/js/utils/numbers.format";
+if (rawCars && rawCars.length > 0) {
+	cars = rawCars;
+	image = cars[getRandomInt(0, cars.length)].data.image;
+	cars.map((car) => {
+		if(!models.includes(car.data.folder_id)){
+			models.push(car.data.folder_id)
+		}
+	})
+} else {
+	image = "";
+}
+console.log(models);
+
+export const breadcrumb = { name: "Каталог", href: "/catalog/" };
+---
+
+<PageLayout
+	h1={`Модельный ряд автомобилей ${BRAND} в ${LEGAL_CITY_WHERE}`}
+	title={`Каталог новых автомобилей ${BRAND} от официального дилера «${SITE_NAME}» в ${LEGAL_CITY_WHERE}`}
+	description="Каталог новых автомобилей Jetour в Самаре от официального дилера. Широкий модельный ряд, надёжные авто, проверенные временем, наличие запчастей, качественный сервис. Автомобили в наличии. Скидки, акции, подарки, льготные автокредиты."
+	keywords=""
+	breadcrumb={[breadcrumb]}
+	image={image ? image : ""}
+	backLink={true}
+>
+	{
+		cars ? (
+			<div class="grid grid-cols-12 gap-5">
+				<div class="col-span-3">
+					<div class="sticky top-20 bg-gray-100 p-4 space-y-4 divide-y">
+						<div>
+							<h3 class="!mb-2">Модель</h3>
+							{models.length && models.map(model => (
+								<label class="flex items-center gap-1">
+									<input type="checkbox" name="" id={model}>
+									<span>{model}</span>
+								</label>
+							))
+							}
+						</div>
+						<div class="pt-4">
+							<h3 class="!mb-2">Цвет</h3>
+						</div>
+						<div class="pt-4">
+							<h3 class="!mb-2">Комплектация</h3>
+						</div>
+						<div class="pt-4">
+							<h3 class="!mb-2">Двигатель</h3>
+						</div>
+						<div class="pt-4">
+							<h3 class="!mb-2">Привод</h3>
+						</div>
+						<div class="pt-4">
+							<h3 class="!mb-2">Тип топлива</h3>
+							<label class="flex items-center gap-1">
+								<input type="checkbox" name="" id="">
+								<span>Бензин</span>
+							</label>
+						</div>
+					</div>
+				</div>
+				<div x-data="sorting" class="col-span-9" x-cloak>
+					<div class="flex items-center gap-10">
+						<SortSelect />
+						<input type="range" name="" id="" value="1989900" min="1989900" max="3929000" step="100">
+					</div>
+					<hr class="my-5">
+					<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5 mt-5 car-list">
+						{cars.map((car) => (
+							<CarItem car={car} />
+						))}
+					</div>
+				</div>
+			</div>
+		) : (
+			<p>Скоро здесь появится список новых автомобилей.</p>
+		)
+	}
+</PageLayout>
+
+<style>
+	.filter-model-link{
+		@apply text-xs sm:text-base py-2 px-2 sm:px-4 no-underline rounded-md m-0;
+	}
+</style>
