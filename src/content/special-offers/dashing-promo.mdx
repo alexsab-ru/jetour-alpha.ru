@@ -14,10 +14,57 @@ import FeedbackForm from '@/components/FeedbackForm/FeedbackForm.astro';
 import { LEGAL_CITY_WHERE, LEGAL_ENTITY, TIMER } from '@/const';
 import { LAST_DAY, MONTH, MONTH_NOMINATIVE, MONTH_GENITIVE, MONTH_PREPOSITIONAL, YEAR } from '@/js/utils/date';
 import Timer from '@/components/Timer/Timer.astro';
+import Slider from '@/components/Slider/Slider.astro';
 
 export const dateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
 export const dateToGenitive = `${LAST_DAY} ${MONTH_GENITIVE} ${YEAR}`;
 export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
+
+export const sliderDataOne = [
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-1-1.webp',
+		title: 'Экономьте в городе',
+		description: 'Передний привод обеспечивает меньший расход топлива, что особенно выгодно для городских поездок и дальних путешествий.'
+	},
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-1-2.webp',
+		title: 'Доступная цена без компромиссов',
+		description: 'Автомобиль с передним приводом имеет привлекательную стартовую стоимость, позволяя получить стильный кроссовер за разумные деньги.'
+	},
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-1-3.webp',
+		title: 'Проверенные технологии',
+		description: 'Конструкция переднего привода проще, что снижает затраты на обслуживание и повышает общую надежность автомобиля.'
+	},
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-1-4.webp',
+		title: 'Меньший износ – дольше ресурс',
+		description: 'Крутящий момент передается только на передние колеса, благодаря чему задние шины изнашиваются медленнее (при одинаковых условиях эксплуатации).'
+	}
+];
+
+export const sliderDataTwo = [
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-2-1.webp',
+		title: 'Максимальное сцепление в любых условиях',
+		description: 'Полный привод обеспечивает уверенное движение по снегу, льду, мокрой дороге и легкому бездорожью, повышая безопасность и проходимость.'
+	},
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-2-2.webp',
+		title: 'Легкий старт',
+		description: 'На скользкой поверхности автомобиль трогается плавно и без лишних усилий, что особенно важно в зимний сезон.'
+	},
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-2-3.webp',
+		title: 'Расширенная комплектация',
+		description: 'Полноприводная версия предлагает более богатое оснащение, добавляя комфорта и технологичности.'
+	},
+	{
+		image: 'https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/slider-2-4.webp',
+		title: 'Классический автомат для плавности хода',
+		description: 'В отличие от переднеприводной версии с роботизированной коробкой (DCT), полноприводный Dashing оснащается традиционной АКПП, которая понравится ценителям плавных переключений.'
+	}
+];
 
 
 <picture>
@@ -40,12 +87,12 @@ export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
 
 <section>
 	<h2>Преимущества Jetour Dashing с передним приводом</h2>
-
+	<Slider data={sliderDataOne} />
 </section>
 
 <section>
 	<h2>Преимущества Jetour Dashing с полным приводом (AWD)</h2>
-
+	<Slider data={sliderDataTwo} />
 </section>
 
 <section>
