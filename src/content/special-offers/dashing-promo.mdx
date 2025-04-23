@@ -1,8 +1,8 @@
 ---
-h1: DASHING с максимальной выгодой до 1 000 000 ₽
-title: DASHING с максимальной выгодой до 1 000 000 ₽
-caption: DASHING с максимальной выгодой до 1 000 000 ₽
-breadcrumb: DASHING с максимальной выгодой до 1 000 000 ₽
+h1: DASHING с максимальной выгодой до 1 180 000 ₽
+title: DASHING с максимальной выгодой до 1 180 000 ₽
+caption: DASHING с максимальной выгодой до 1 180 000 ₽
+breadcrumb: DASHING с максимальной выгодой до 1 180 000 ₽
 pubDate: 2025-04-07
 toDate: true
 image: https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/thumb.webp
@@ -17,6 +17,7 @@ import Timer from '@/components/Timer/Timer.astro';
 import Slider from '@/components/Slider/Slider.astro';
 
 export const dateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
+export const dateToTimer = `${YEAR}-${MONTH}-${LAST_DAY}T23:59:59+04:00`;
 export const dateToGenitive = `${LAST_DAY} ${MONTH_GENITIVE} ${YEAR}`;
 export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
 
@@ -69,10 +70,10 @@ export const sliderDataTwo = [
 
 <picture>
 	<source media="(min-width: 768px)" srcset="https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/1.webp" />
-	<img src="https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/thumb.webp" class="mb-10 lg:mb-20 w-full" alt="DASHING с максимальной выгодой до 1 000 000 ₽" />
+	<img src="https://cdn.alexsab.ru/b/jetour/img/special-offers/dashing-promo/thumb.webp" class="mb-10 lg:mb-20 w-full" alt="DASHING с максимальной выгодой до 1 180 000 ₽" />
 </picture>
 
-<Timer subtitle='До конца акции' btnName='Получить предложение' endtime='2025-04-30T23:59:59+04:00'/>
+<Timer subtitle='До конца акции' btnName='Получить предложение' endtime={dateToTimer} />
 
 <section>
   <h2>Выгоды на покупку</h2>
