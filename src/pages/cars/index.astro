@@ -1,7 +1,8 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
 import { getCollection } from "astro:content";
-import { SITE_NAME, BRAND, LEGAL_CITY_WHERE } from "@/const";
+import settings from '@/data/settings.json';
+const { site_name, brand, legal_city_where } = settings;
 import CarsList from '@/components/Cars/List.astro';
 const rawCars = await getCollection("cars");
 let cars: any, image: string;
@@ -16,10 +17,8 @@ export const breadcrumb = { name: "Авто в наличии", href: "/cars/" }
 ---
 
 <PageLayout
-	h1={`Автомобили ${BRAND} в наличии в ${LEGAL_CITY_WHERE}`}
-	title="Купить автомобили JETOUR от 1 919 900 р. в Самаре. Цены и комплектации на авто в наличии в автосалоне официального дилера Альфа"
-	description="Автомобили Джетур купить в Самаре. Кредит от 0,01%, авторассрочка, скидки на все автомобили от розничной цены. Гарантия 3 года или 100 000 км. Авто в наличии. Звонить по тел.: ☎️ 8 (846) 9 777-779"
-	keywords="купить jetour в Самаре, цены на jetour в Самаре, jetour в кредит в Самаре, jetour в рассрочку в Самаре, тест драйв jetour в Самаре, цены и комплектации jetour в Самаре, официальный дилер jetour в Самаре"
+	h1={`Автомобили ${brand} в наличии в ${legal_city_where}`}
+	title={`Автомобили в наличии | ${site_name}`}
 	breadcrumb={[breadcrumb]}
 	image={image ? image : ""}
 	backLink={true}
