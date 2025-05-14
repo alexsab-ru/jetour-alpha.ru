@@ -11,7 +11,8 @@ description: "Бренд Jetour предлагает новые выгодные
 
 import Button from '@/components/Button/Button.astro';
 import FeedbackForm from '@/components/FeedbackForm/FeedbackForm.astro';
-import { LEGAL_CITY_WHERE, LEGAL_ENTITY } from '@/const';
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 
 export const DateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;

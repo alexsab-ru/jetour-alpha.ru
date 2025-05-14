@@ -8,7 +8,8 @@ description: "Jetour Dashing и X90Plus — автомобили, которы�
 ---
 
 import Button from '@/components/Button/Button.astro';
-import { LEGAL_CITY_WHERE } from '@/const'
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
 
 <picture>
     <source media="(min-width: 1025px)" srcset="/img/news/den-fizkulturnika-na-samarskoy-naberezhnoy/photo_2024-08-17 14.22.03.webp" />

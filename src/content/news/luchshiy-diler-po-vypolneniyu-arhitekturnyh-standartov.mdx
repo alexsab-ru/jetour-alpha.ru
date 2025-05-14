@@ -8,7 +8,8 @@ description: "Автосалон Альфа на Новоурицкой, 22  п�
 ---
 
 import Button from '@/components/Button/Button.astro';
-import { LEGAL_CITY_WHERE } from '@/const'
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
 
 <picture>
     <source media="(min-width: 1025px)" srcset="/img/news/luchshiy-diler-po-vypolneniyu-arhitekturnyh-standartov/luchshiy-diler-po-vypolneniyu-arhitekturnyh-standartov.webp" />

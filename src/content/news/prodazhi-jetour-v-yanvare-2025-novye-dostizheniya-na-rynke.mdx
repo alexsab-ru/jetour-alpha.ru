@@ -10,7 +10,8 @@ description: "Jetour объявляет результаты продаж в я�
 
 import Button from '@/components/Button/Button.astro';
 import SpecialSalonsInfo from '@/components/SpecialSalonsInfo.astro';
-import { SITE_NAME, PHONE, LEGAL_CITY_WHERE } from '@/const';
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 
@@ -29,7 +30,7 @@ Jetour объявляет результаты продаж в январе 2025
 
 Также в феврале при покупке любой модели 2024 года выпуска, кроме Jetour X70, либо Х70 Plus и Х9 Plus 2023 года выпуска клиент получит полис страхования КАСКО.
 
-Узнать подробности о всех действующих [программах и акциях](/special-offers/), [записаться на тест-драйв](/test-drive/) можно у нас на сайте или в дилерском ценре Jetour {SITE_NAME} в {LEGAL_CITY_WHERE}.
+Узнать подробности о всех действующих [программах и акциях](/special-offers/), [записаться на тест-драйв](/test-drive/) можно у нас на сайте или в дилерском ценре Jetour {site_name} в {legal_city_where}.
 
 <SpecialSalonsInfo dataFormName="Узнать подробнее. Jetour представляет Т2 в новом цвете кузова" />
 

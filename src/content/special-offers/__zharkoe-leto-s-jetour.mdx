@@ -10,7 +10,8 @@ description: "Жаркое лето с Jetour - это выгода на пок�
 
 
 import Button from '@/components/Button/Button.astro';
-import { SITE_NAME, PHONE } from '@/const';
+import settings from '@/data/settings.json';
+export const { site_name, brand, phone_common, legal_city_where } = settings;
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 import models from '@/data/models.json';
@@ -29,7 +30,7 @@ export const DateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
         <div class="space-y-5 mt-12">
     {
         models.filter(model => model.show).map(m => (
-            <div class="sm:text-lg"><strong>{BRAND} { m.name }.</strong> Минимальная цена на кроссовер с учетом всех выгод – <strong>{ currencyFormat(m.price) }</strong></div>
+            <div class="sm:text-lg"><strong>{brand} { m.name }.</strong> Минимальная цена на кроссовер с учетом всех выгод – <strong>{ currencyFormat(m.price) }</strong></div>
         ))
     }
         </div>

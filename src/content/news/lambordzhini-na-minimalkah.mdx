@@ -8,7 +8,8 @@ description: "Ламборджини на минималках"
 ---
 
 import Button from '@/components/Button/Button.astro';
-import { LEGAL_CITY_WHERE } from '@/const'
+import settings from '@/data/settings.json';
+export const { site_name, phone_common, legal_city_where } = settings;
 
 
 <div class="video-container">
