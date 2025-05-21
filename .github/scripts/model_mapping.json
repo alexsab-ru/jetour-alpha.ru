@@ -632,7 +632,8 @@
                 "Синий": "blue.webp",
                 "Серый": "gray.webp",
                 "Темно-серый": "gray.webp",
-                "Светло-серый": "silver.webp",
+                "Светло-серый": "light-gray.webp",
+                "(lc)светло-серый": "light-gray.webp",
                 "Красный": "red.webp",
                 "Серебристый": "silver.webp",
                 "Белый": "white.webp"
@@ -691,15 +692,15 @@
             "folder": "x50",
             "cyrillic": "Икс 50",
             "color": {
-                "Black": "black.png",
-                "Черный": "black.png",
-                "Чёрный": "black.png",
-                "Gray": "gray.png",
-                "Серый": "gray.png",
-                "Lightgray": "light-gray.png",
-                "Светло-серый": "light-gray.png",
-                "White": "white.png",
-                "Белый": "white.png"
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Чёрный": "black.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "Lightgray": "light-gray.webp",
+                "Светло-серый": "light-gray.webp",
+                "White": "white.webp",
+                "Белый": "white.webp"
             }
         },
         "X70 PLUS, I": {

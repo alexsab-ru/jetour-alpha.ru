@@ -116,6 +116,15 @@ jobs:
       env:
         CSV_URL: ${{ vars.DEALER_CARS_PRICE_CSV_URL }}
 
+    - name: Get XML from Avito to get dealer photos for cars
+      if: ${{ vars.DEALER_PHOTOS_FOR_CARS_AVITO_URL }}
+      run: |
+        python .github/scripts/getOneXML.py --output_path="dealer_photos_for_cars_avito.xml"
+      env:
+        DOMAIN: ${{ vars.DOMAIN }}
+        XML_URL: ${{ vars.DEALER_PHOTOS_FOR_CARS_AVITO_URL }}
+
+
     - name: Get Dealer cars Storage
       if: ${{ vars.DEALER_STORAGE_CSV_URL }}
       run: |
