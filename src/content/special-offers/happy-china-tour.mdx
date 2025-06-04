@@ -18,7 +18,8 @@ import { LAST_DAY, MONTH, MONTH_NOMINATIVE, MONTH_GENITIVE, MONTH_PREPOSITIONAL,
 import Timer from '@/components/Timer/Timer.astro';
 import Slider from '@/components/Slider/Slider.astro';
 
-export const dateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
+export const dateFrom = '01.06.2025';
+export const dateTo = '31.07.2025';
 export const dateToTimer = `${YEAR}-${MONTH}-${LAST_DAY}T23:59:59+04:00`;
 export const dateToGenitive = `${LAST_DAY} ${MONTH_GENITIVE} ${YEAR}`;
 export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
@@ -31,7 +32,7 @@ export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
 
 ## Путешествие в Китай начинается c JETOUR
 
-При покупке нового автомобиля Jetour в период с 1 июня по 31 июля 2025 Вы получаете шанс на выигрыш ценных призов. Регистрируйтесь до 07.08.2025 и участвуйте в розыгрыше призов.
+При покупке нового автомобиля Jetour в период с {dateFrom} по {dateTo} Вы получаете шанс на выигрыш ценных призов. Регистрируйтесь до 07.08.2025 и участвуйте в розыгрыше призов.
 
 **Призовой фонд:**
 
@@ -43,7 +44,7 @@ export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
 
 **Условия участия:**
 
-1. Вы владелец автомобиля Jetour, купленного у официального дилера в РФ в период с 1 июня по 31 июля 2025 года;
+1. Вы владелец автомобиля Jetour, купленного у официального дилера в РФ в период с {dateFrom} по {dateTo} года;
 2. У Вас открытый профиль и 200+ подписчиков в социальной сети Вконтакте;
 3. У Вас как минимум 1 публикация, содержащая упоминание бренда Jetour и фотографию автомобиля марки «Jetour» после покупки в период проведения Акции;
 4. Вы готовы освещать всю поездку в своих социальных сетях в случае победы;
@@ -57,4 +58,6 @@ export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
 
 20 топливных карт разыгрываются среди участников, зарегистрировавшихся в Акции после покупки автомобиля Jetour, но не выигравших тур в Китай и сертификат на сервис путешествий.
 
-<a href="https://jetour-ru.com/media-link/Rules-for-the-Promotion-Travel-to-China" target="_blank" class="btn btn-primary">Подробные правила Акции</a>
+<p><a href="https://jetour-ru.com/Happy-China-Tour#block_key_forma-puteshestvie-v-kitaj_MGwo" target="_blank" class="btn">Регистрация в Акции</a></p>
+<a href="https://jetour-ru.com/media-link/Rules-for-the-Promotion-Travel-to-China" target="_blank">Подробные правила Акции</a>
+
