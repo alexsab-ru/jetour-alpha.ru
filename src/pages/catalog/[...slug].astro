@@ -1,11 +1,13 @@
 ---
 import CarPageLayout from '@/layouts/CarPageLayout.astro';
 import { getReadyCars, breadcrumb } from './index.astro';
+import modelsData from '@/data/models.json';
 
 export async function getStaticPaths() {
 	const settings = await import('@/data/settings.json');
 	const legal_city_where = settings.legal_city_where;
-	const readyCars = await getReadyCars(legal_city_where);
+	const { models } = modelsData;
+	const readyCars = await getReadyCars(legal_city_where, models);
 	return readyCars.map((car) => ({
 		params: { slug: car.slug },
 		props: { car },
