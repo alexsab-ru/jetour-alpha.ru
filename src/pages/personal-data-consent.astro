@@ -1,0 +1,37 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro';
+import PersonalData from '@/content/personal-data-consent.mdx';
+import settings from '@/data/settings.json';
+const { site_name, legal_entity, legal_inn, legal_city, phone_common, email_common } = settings;
+import scripts from '@/data/scripts.json';
+const { site } = scripts;
+import salonsData from '@/data/salons.json';
+import type { ISalon } from '@/types/ISalon';
+const salons = salonsData.filter((salon: ISalon) => !salon?.type || salon?.type.includes('privacy_policy'));
+const common_text = legal_entity && legal_inn ? 
+
+`Настоящая Политика обработки персональных данных (далее — Политика) разработана в соответствии с Федеральным законом от 27.07.2006 №152-ФЗ «О персональных данных» и определяет порядок обработки и защиты персональных данных пользователей сайта ${site} (далее — Сайт), которые предоставляет ${legal_entity} (ИНН: ${legal_inn}, г. ${legal_city}) (далее — Оператор).` : 
+
+`Настоящая Политика обработки персональных данных (далее — Политика) разработана в соответствии с Федеральным законом от 27.07.2006 №152-ФЗ «О персональных данных» и определяет порядок обработки и защиты персональных данных пользователей сайта ${site} (далее — Сайт), которые предоставляет следующие юридические лица:` +
+
+salons
+    .filter(salon => salon?.legal_entity && salon?.legal_entity !== '')
+    .map(s => `<br />- ${s?.legal_entity}${s?.legal_inn ? `, ИНН: ${s?.legal_inn}` : ''}${s?.legal_city ? `, г. ${s?.legal_city}` : ''}`) +
+
+`<br />(далее совместно именуемые — «Операторы», а отдельно — «Оператор»).`;
+
+const contact_text = legal_entity && legal_inn ? 
+`${legal_entity ? `- Наименование организации: ${legal_entity};<br />` : ''}${legal_city ? `- Юридический адрес: ${legal_city};<br />` : ''}${phone_common ? `- Телефон: ${phone_common};<br />` : ''}${email_common ? `- Электронная почта: ${email_common}.` : ''}` : 
+`По всем вопросам, связанным с обработкой персональных данных, вы можете обратиться к администрациям Операторов через форму обратной связи на сайте ${site} или по контактным данным, указанным на Сайте.`;
+---
+
+<PageLayout
+    h1="Согласие на обработку персональных данных"
+    title="Согласие на обработку персональных данных"
+    description="Согласие на обработку персональных данных официального дилера автомобилей Jetour в Самаре"
+    breadcrumb={[{name:"Согласие на обработку персональных данных",href:""}]}
+>
+
+<PersonalData />
+
+</PageLayout> 
