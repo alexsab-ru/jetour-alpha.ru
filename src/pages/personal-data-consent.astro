@@ -1,6 +1,6 @@
 ---
 import PageLayout from '@/layouts/PageLayout.astro';
-import PrivacyPolicy from '@/content/privacy-policy.mdx';
+import PersonalData from '@/content/personal-data-consent.mdx';
 import settings from '@/data/settings.json';
 const { site_name, legal_entity, legal_inn, legal_city, phone_common, email_common } = settings;
 import scripts from '@/data/scripts.json';
@@ -26,12 +26,12 @@ const contact_text = legal_entity && legal_inn ?
 ---
 
 <PageLayout
-    h1="Политика конфиденциальности"
-    title="Политика конфиденциальности"
-    description="Политика конфиденциальности официального дилера автомобилей Jetour в Самаре"
-    breadcrumb={[{name:"Политика конфиденциальности",href:""}]}
+    h1="Согласие на обработку персональных данных"
+    title="Согласие на обработку персональных данных"
+    description="Согласие на обработку персональных данных официального дилера автомобилей Jetour в Самаре"
+    breadcrumb={[{name:"Согласие на обработку персональных данных",href:""}]}
 >
 
-<PrivacyPolicy />
+<PersonalData />
 
 </PageLayout> 
