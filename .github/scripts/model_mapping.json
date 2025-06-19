@@ -454,6 +454,7 @@
             "folder": "gs3",
             "cyrillic": "ГС3",
             "color": {
+                "Черный": "black.webp",
                 "Голубой": "blue.webp",
                 "Синий": "blue.webp",
                 "Серый": "gray.webp",
@@ -546,7 +547,10 @@
             "folder": "empow",
             "cyrillic": "Эмпоу",
             "color": {
-                "Черный": "black.webp"
+                "Черный": "black.webp",
+                "Белый": "white.webp",
+                "Серый": "gray.webp",
+                "Серебристый": "silver.webp"
             }
         }
     },
@@ -987,7 +991,7 @@
             }
         },
         "CS35PLUS, I Рестайлинг": {
-            "folder": "cs35plus new",
+            "folder": "cs35plusnew",
             "color": {
                 "Crystal_white": "cs35plusnew_crystal_white.webp",
                 "Кристально белый": "cs35plusnew_crystal_white.webp",
@@ -1364,6 +1368,17 @@
         "F7, II": {
             "folder": "f7",
             "cyrillic": "F7",
+            "color": {
+                "Синий": "oceanic-lapis-lazuli.webp",
+                "Черный": "galactic-black.webp",
+                "Чёрный": "galactic-black.webp",
+                "Белый": "noble-agate.webp",
+                "Серый": "smoky-pearls.webp"
+            }
+        },
+        "F7x, II": {
+            "folder": "new-haval-f7x",
+            "cyrillic": "F7x",
             "color": {
                 "Синий": "oceanic-lapis-lazuli.webp",
                 "Черный": "galactic-black.webp",
