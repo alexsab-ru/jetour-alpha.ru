@@ -316,7 +316,14 @@
 			<registry_year>2024</registry_year>
 			<vin>EC3DEUFD2R0000855</vin>
 			<description />
-			<images />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD2R0000855/f15036aa3171e5676eba8bfa40b80cba.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD2R0000855/5c318a05cae1eb0039e4f253be45a1bf.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD2R0000855/75ab97fecfbdad1ebebfb50f32292153.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD2R0000855/78a574474a10e75de7ddecca08856785.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD2R0000855/e0cdd1a4ffd859d8854a9fc06d14286b.jpeg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD2R0000855/6e830dd4dc335ddbdc5a069c090bd012.jpeg</image>
+			</images>
 		<max_discount>950000</max_discount><priceWithDiscount>1889900</priceWithDiscount><sale_price>1889900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-15-amt-147-лс-elite-зеленый-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
@@ -340,7 +347,13 @@
 			<registry_year>2024</registry_year>
 			<vin>EC3DEUFD3R0001271</vin>
 			<description />
-			<images />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/1738a261d0d950bd4a9a494bfef8b087.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/a91936b66f092cd54d5b6c64555392b8.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/0da7a35d82aa5adff364623e7d003911.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/5a80929408aba3293c5c46c11228d27f.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/f4650624b0147c6ed46150d56816a66e.jpg</image>
+			</images>
 		<max_discount>950000</max_discount><priceWithDiscount>1889900</priceWithDiscount><sale_price>1889900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-15-amt-147-лс-elite-синий-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
@@ -364,7 +377,12 @@
 			<registry_year>2024</registry_year>
 			<vin>EC3DEUFD3R0001576</vin>
 			<description />
-			<images />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001576/6a0713e586d30550d1b9764f6d6ca017.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001576/a7de9f0b64f2354aec60dacc36183171.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001576/a82d9160e41687d9770202dc1713e7b9.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001576/16866d40a6016c5ed368fab5706f2cbe.jpg</image>
+			</images>
 		<max_discount>950000</max_discount><priceWithDiscount>1889900</priceWithDiscount><sale_price>1889900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-15-amt-147-лс-elite-синий-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
@@ -399,7 +417,10 @@
 - Индивидуальный подход  к каждому клиенту
  
  Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images />
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//LVTDD21B5RD314152/30844e6773aa0bca6bf4f45c1fbb88c4.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//LVTDD21B5RD314152/8d42a38d520004ec6fd27ffaead0a609.jpg</image>
+			</images>
 		<max_discount>1280000</max_discount><priceWithDiscount>2369000</priceWithDiscount><sale_price>2369000</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-at-185-лс-4wd-luxury-белый-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
