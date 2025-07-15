@@ -621,7 +621,7 @@
 			<custom>растаможен</custom>
 			<owners_number>Не было владельцев</owners_number>
 			<year>2024</year>
-			<price>4249000</price>
+			<price>4274000</price>
 			<credit_discount>500000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>150000</tradein_discount>
@@ -642,7 +642,7 @@
  
  Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
 			<images />
-		<max_discount>1000000</max_discount><priceWithDiscount>3249000</priceWithDiscount><sale_price>3249000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-amt-245-лс-4wd-expedition-серебряный-2024/</url></car>
+		<max_discount>1000000</max_discount><priceWithDiscount>3274000</priceWithDiscount><sale_price>3274000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-amt-245-лс-4wd-expedition-серебряный-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>T2</folder_id>
@@ -1024,7 +1024,7 @@
 			<credit_discount>450000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
+			<optional_discount>155000</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2023</registry_year>
 			<vin>HJRPBGJB0PF090674</vin>
@@ -1065,7 +1065,7 @@
 			<credit_discount>450000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
+			<optional_discount>155000</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2023</registry_year>
 			<vin>HJRPBGJB4PF090659</vin>
