@@ -611,41 +611,6 @@
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>T2</folder_id>
-			<modification_id>2.0 AMT (245 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Expedition</complectation_name>
-			<wheel>левый</wheel>
-			<color>СЕРЕБРЯНЫЙ</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>4274000</price>
-			<credit_discount>500000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>150000</tradein_discount>
-			<optional_discount>250000</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB8RB435654</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images />
-		<max_discount>1000000</max_discount><priceWithDiscount>3274000</priceWithDiscount><sale_price>3274000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-amt-245-лс-4wd-expedition-серебряный-2024/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>T2</folder_id>
 			<modification_id>2.0 AT (245 л.с.) 4WD</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Discovery</complectation_name>
@@ -836,47 +801,6 @@
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>X90 PLUS</folder_id>
-			<modification_id>1.6 AMT (190 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxury</complectation_name>
-			<wheel>левый</wheel>
-			<color>Серый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2023</year>
-			<price>3519900</price>
-			<credit_discount>500000</credit_discount>
-			<insurance_discount>50000</insurance_discount>
-			<tradein_discount>300000</tradein_discount>
-			<optional_discount>100000</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2023</registry_year>
-			<vin>HJRPBGGB2PF098315</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2PF098315/16b999fa7616163855f08287fefdcce5.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2PF098315/82aca26b575fa482e15d36cb6bac1eef.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2PF098315/3bb8d0790cc5cd3a300b9c774a06e100.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2PF098315/cff6c2088a731d64c4bac9e4accca927.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2PF098315/e253697d361b1fb5c5b7afc4305b403b.jpg</image>
-			</images>
-		<max_discount>1200000</max_discount><priceWithDiscount>2319900</priceWithDiscount><sale_price>2319900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-16-amt-190-лс-luxury-серый-2023/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>X90 PLUS</folder_id>
 			<modification_id>2.0 AMT (244 л.с.)</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Elite</complectation_name>
@@ -891,7 +815,7 @@
 			<credit_discount>450000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
+			<optional_discount>600000</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2023</registry_year>
 			<vin>HJRPBGJB6PF079257</vin>
@@ -919,7 +843,7 @@
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB6PF079257/2c0f003d204c94bc77aad0512fff11e2.jpg</image>
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB6PF079257/f6a65f6fb52430cbd7654f7de574d3c3.jpg</image>
 			</images>
-		<max_discount>1000000</max_discount><priceWithDiscount>2719900</priceWithDiscount><sale_price>2719900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
+		<max_discount>1300000</max_discount><priceWithDiscount>2419900</priceWithDiscount><sale_price>2419900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>X90 PLUS</folder_id>
@@ -937,7 +861,7 @@
 			<credit_discount>450000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>250000</tradein_discount>
-			<optional_discount>0</optional_discount>
+			<optional_discount>600000</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2023</registry_year>
 			<vin>HJRPBGJB1PF074824</vin>
@@ -964,7 +888,7 @@
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/5b587778e7bc1b942b2000df445d602f.jpg</image>
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/2f84cf84bb7e27856ce5c0e2f5b143d2.jpg</image>
 			</images>
-		<max_discount>1000000</max_discount><priceWithDiscount>2719900</priceWithDiscount><sale_price>2719900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
+		<max_discount>1300000</max_discount><priceWithDiscount>2419900</priceWithDiscount><sale_price>2419900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>X90 PLUS</folder_id>
