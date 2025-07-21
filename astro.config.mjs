@@ -7,6 +7,7 @@ import mdx from "@astrojs/mdx";
 import icon from "astro-icon";
 import yaml from '@rollup/plugin-yaml';
 import react from '@astrojs/react';
+import vue from '@astrojs/vue';
 
 // https://astro.build/config
 export default defineConfig({
@@ -43,6 +44,7 @@ export default defineConfig({
 		mdx(),
 		icon(),
 		react(),
+		vue()
 	],
 	vite: {
 		plugins: [yaml()],

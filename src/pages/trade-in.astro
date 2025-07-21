@@ -1,0 +1,10 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import TradeInForm from '@/components/Vue/TradeInForm.vue';
+---
+
+<Layout title={`JETOUR trade-in`} description="JETOUR trade-in">
+	<div class="container">
+		<TradeInForm client:load />
+	</div>
+</Layout>
