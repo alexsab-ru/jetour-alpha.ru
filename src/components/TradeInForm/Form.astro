@@ -1,0 +1,22 @@
+---
+import Button from '@/components/Button/Button.astro';
+import Input from '@/components/Input.astro';
+---
+<h3 class="text-center font-bold !text-3xl sm:!text-4xl !mb-8">Оценка вашего автомобиля</h3>
+<form class="flex flex-col gap-4 max-w-[500px] mx-auto">
+  <input type="hidden" name="form" value="tradeInForm" />
+  <input
+    type="email"
+    tabindex="-1"
+    name="email"
+    class="h-0 opacity-0 absolute -z-[100]"
+    placeholder="mail@example.com"
+/>
+  
+  <Input name="brandAndModel" classes="border-gray-100" placeholder="Марка и модель вашего авто" />
+  <Input name="year" classes="border-gray-100" placeholder="Год выпуска" />
+  <Input name="mileage" classes="border-gray-100" placeholder="Пробег" />
+  <Input name="estimatedCost" classes="border-gray-100" placeholder="Оценочная стоимость" />
+
+  <Button view="form-button" classes="w-full" title="Отправить" />
+</form>

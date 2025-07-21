@@ -1,0 +1,23 @@
+---
+import Form from './Form.astro';
+
+interface Props{
+  imageUrl?: string;
+}
+
+const {
+  imageUrl = '',
+} = Astro.props;
+---
+{imageUrl.length ? (
+  <div class="flex flex-col lg:flex-row lg:gap-10 lg:items-center lg:justify-center">
+    <div class="lazy !hidden lg:!flex justify-center lg:w-1/2">
+      <img src="https://cdn.alexsab.ru/loaders/simple-loading-gray.svg" data-src={imageUrl} alt="Оценка вашего автомобиля" class="w-full h-auto" loading="lazy" />
+    </div>
+    <div>
+      <Form />
+    </div>
+  </div>
+) : (
+  <Form />
+)}
