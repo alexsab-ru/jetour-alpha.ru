@@ -47,46 +47,6 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Elite</complectation_name>
 			<wheel>левый</wheel>
-			<color>Красный</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>2839900</price>
-			<credit_discount>400000</credit_discount>
-			<insurance_discount>50000</insurance_discount>
-			<tradein_discount>200000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>HJRPBGFB4RB173737</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGFB4RB173737/bc916302bf7f617def55735d8de31211.jpeg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGFB4RB173737/08f985e91d555ce70e99a284097cdbfd.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGFB4RB173737/a130a13c068a7ed2cd233a95ecbbf3e7.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGFB4RB173737/ad298f22b673e28911c7081ebb9c6436.jpg</image>
-			</images>
-		<max_discount>950000</max_discount><priceWithDiscount>1889900</priceWithDiscount><sale_price>1889900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-15-amt-147-лс-elite-красный-2024/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>Dashing, I</folder_id>
-			<modification_id>1.5 AMT (147 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Elite</complectation_name>
-			<wheel>левый</wheel>
 			<color>Черный</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -133,47 +93,6 @@
 			<body_type>Внедорожник 5 дв.</body_type>
 			<complectation_name>Luxury</complectation_name>
 			<wheel>левый</wheel>
-			<color>Белый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>3189900</price>
-			<credit_discount>400000</credit_discount>
-			<insurance_discount>50000</insurance_discount>
-			<tradein_discount>200000</tradein_discount>
-			<optional_discount>50000</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>HJRPBGGB2RB164730</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2RB164730/e19f31b9bd42c447596344c644796666.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2RB164730/37086395d6be486cd3781b2a70a3f8c4.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2RB164730/f2198d8255fc7ccbee53df5dfa83389a.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2RB164730/c0bdfdb81a69d0c993231738515059f2.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB2RB164730/035f748e452084a8d010d3a18e54857a.jpg</image>
-			</images>
-		<max_discount>1180000</max_discount><priceWithDiscount>2009900</priceWithDiscount><sale_price>2009900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-amt-190-лс-luxury-белый-2024/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>Dashing, I</folder_id>
-			<modification_id>1.6 AMT (190 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxury</complectation_name>
-			<wheel>левый</wheel>
 			<color>Серый</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
@@ -206,6 +125,111 @@
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB6RB167162/663f630ed83ec386157013fc40e51b5d.jpg</image>
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGGB6RB167162/413480b1d6353057d21e8a57a18d2e8d.jpg</image>
 			</images>
+		<max_discount>1180000</max_discount><priceWithDiscount>2009900</priceWithDiscount><sale_price>2009900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-amt-190-лс-luxury-серый-2024/</url></car>
+		<car>
+			<mark_id>JETOUR</mark_id>
+			<folder_id>Dashing, I</folder_id>
+			<modification_id>1.6 AMT (190 л.с.)</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxury</complectation_name>
+			<wheel>левый</wheel>
+			<color>Серый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>3189900</price>
+			<credit_discount>400000</credit_discount>
+			<insurance_discount>50000</insurance_discount>
+			<tradein_discount>200000</tradein_discount>
+			<optional_discount>50000</optional_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>HJRPBGGB8RB166627</vin>
+			<description>Абсолютно новый бренд JETOUR на ваших дорогах
+ 
+ Почему стоит покупать JETOUR в АЛЬФА: 
+- Автомобили в наличии и с ПТС   
+- Персональный менеджер во время всех этапов сделки 
+- Расположение рядом с центром города, удобная парковка 
+- Бесплатный тест-драйв 
+- Оформление автомобиля в день обращения 
+- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
+- Индивидуальный подход  к каждому клиенту
+ 
+ Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
+			<images />
+		<max_discount>1180000</max_discount><priceWithDiscount>2009900</priceWithDiscount><sale_price>2009900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-amt-190-лс-luxury-серый-2024/</url></car>
+		<car>
+			<mark_id>JETOUR</mark_id>
+			<folder_id>Dashing, I</folder_id>
+			<modification_id>1.6 AMT (190 л.с.)</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxury</complectation_name>
+			<wheel>левый</wheel>
+			<color>Серый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>3189900</price>
+			<credit_discount>400000</credit_discount>
+			<insurance_discount>50000</insurance_discount>
+			<tradein_discount>200000</tradein_discount>
+			<optional_discount>50000</optional_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>HJRPBGGB8RB166644</vin>
+			<description>Абсолютно новый бренд JETOUR на ваших дорогах
+ 
+ Почему стоит покупать JETOUR в АЛЬФА: 
+- Автомобили в наличии и с ПТС   
+- Персональный менеджер во время всех этапов сделки 
+- Расположение рядом с центром города, удобная парковка 
+- Бесплатный тест-драйв 
+- Оформление автомобиля в день обращения 
+- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
+- Индивидуальный подход  к каждому клиенту
+ 
+ Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
+			<images />
+		<max_discount>1180000</max_discount><priceWithDiscount>2009900</priceWithDiscount><sale_price>2009900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-amt-190-лс-luxury-серый-2024/</url></car>
+		<car>
+			<mark_id>JETOUR</mark_id>
+			<folder_id>Dashing, I</folder_id>
+			<modification_id>1.6 AMT (190 л.с.)</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxury</complectation_name>
+			<wheel>левый</wheel>
+			<color>Серый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2024</year>
+			<price>3189900</price>
+			<credit_discount>400000</credit_discount>
+			<insurance_discount>50000</insurance_discount>
+			<tradein_discount>200000</tradein_discount>
+			<optional_discount>50000</optional_discount>
+			<currency>RUR</currency>
+			<registry_year>2024</registry_year>
+			<vin>HJRPBGGB8RB166630</vin>
+			<description>Абсолютно новый бренд JETOUR на ваших дорогах
+ 
+ Почему стоит покупать JETOUR в АЛЬФА: 
+- Автомобили в наличии и с ПТС   
+- Персональный менеджер во время всех этапов сделки 
+- Расположение рядом с центром города, удобная парковка 
+- Бесплатный тест-драйв 
+- Оформление автомобиля в день обращения 
+- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
+- Индивидуальный подход  к каждому клиенту
+ 
+ Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
+			<images />
 		<max_discount>1180000</max_discount><priceWithDiscount>2009900</priceWithDiscount><sale_price>2009900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-amt-190-лс-luxury-серый-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
@@ -356,47 +380,6 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>EC3DEUFD3R0001271</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/1738a261d0d950bd4a9a494bfef8b087.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/a91936b66f092cd54d5b6c64555392b8.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/0da7a35d82aa5adff364623e7d003911.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/5a80929408aba3293c5c46c11228d27f.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/f4650624b0147c6ed46150d56816a66e.jpg</image>
-			</images>
-		<max_discount>950000</max_discount><priceWithDiscount>1889900</priceWithDiscount><sale_price>1889900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-15-amt-147-лс-elite-синий-2024/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>Dashing, I</folder_id>
-			<modification_id>1.5 AMT (147 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Elite</complectation_name>
-			<wheel>левый</wheel>
-			<color>Синий</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>2839900</price>
-			<credit_discount>400000</credit_discount>
-			<insurance_discount>50000</insurance_discount>
-			<tradein_discount>200000</tradein_discount>
-			<optional_discount>0</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
 			<vin>EC3DEUFD3R0001576</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
@@ -420,24 +403,24 @@
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>Dashing, I</folder_id>
-			<modification_id>1.6 AT (185 л.с.) 4WD</modification_id>
+			<modification_id>1.5 AMT (147 л.с.)</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxury</complectation_name>
+			<complectation_name>Elite</complectation_name>
 			<wheel>левый</wheel>
-			<color>Белый</color>
+			<color>Синий</color>
 			<metallic>нет</metallic>
 			<availability>в наличии</availability>
 			<custom>растаможен</custom>
 			<owners_number>Не было владельцев</owners_number>
 			<year>2024</year>
-			<price>3649000</price>
-			<credit_discount>350000</credit_discount>
+			<price>2839900</price>
+			<credit_discount>400000</credit_discount>
 			<insurance_discount>50000</insurance_discount>
 			<tradein_discount>200000</tradein_discount>
-			<optional_discount>350000</optional_discount>
+			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>LVTDD21B5RD314152</vin>
+			<vin>EC3DEUFD3R0001271</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -451,10 +434,13 @@
  
  Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
 			<images>
-				<image>https://cars.avto-provereno.ru/feeds//LVTDD21B5RD314152/30844e6773aa0bca6bf4f45c1fbb88c4.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//LVTDD21B5RD314152/8d42a38d520004ec6fd27ffaead0a609.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/1738a261d0d950bd4a9a494bfef8b087.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/a91936b66f092cd54d5b6c64555392b8.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/0da7a35d82aa5adff364623e7d003911.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/5a80929408aba3293c5c46c11228d27f.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//EC3DEUFD3R0001271/f4650624b0147c6ed46150d56816a66e.jpg</image>
 			</images>
-		<max_discount>1280000</max_discount><priceWithDiscount>2369000</priceWithDiscount><sale_price>2369000</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-at-185-лс-4wd-luxury-белый-2024/</url></car>
+		<max_discount>950000</max_discount><priceWithDiscount>1889900</priceWithDiscount><sale_price>1889900</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-15-amt-147-лс-elite-синий-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>Dashing, I</folder_id>
@@ -543,14 +529,14 @@
 			<availability>в наличии</availability>
 			<custom>растаможен</custom>
 			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
+			<year>2025</year>
 			<price>4449000</price>
 			<credit_discount>500000</credit_discount>
 			<insurance_discount>50000</insurance_discount>
 			<tradein_discount>150000</tradein_discount>
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
+			<registry_year>2025</registry_year>
 			<vin>EC3TDUMA0S0000088</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
@@ -565,7 +551,7 @@
  
  Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
 			<images />
-		<max_discount>900000</max_discount><priceWithDiscount>3549000</priceWithDiscount><sale_price>3549000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-at-245-лс-4wd-discovery-черный-2024/</url></car>
+		<max_discount>900000</max_discount><priceWithDiscount>3549000</priceWithDiscount><sale_price>3549000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-at-245-лс-4wd-discovery-черный-2025/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>T2</folder_id>
@@ -748,7 +734,7 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB9RBD05871</vin>
+			<vin>HJRPBGJB7RBD10471</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -783,7 +769,7 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB7RBD10471</vin>
+			<vin>HJRPBGJB9RBD05871</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -798,6 +784,41 @@
  Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
 			<images />
 		<max_discount>900000</max_discount><priceWithDiscount>3549000</priceWithDiscount><sale_price>3549000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-at-245-лс-4wd-discovery-коричневый-2024/</url></car>
+		<car>
+			<mark_id>JETOUR</mark_id>
+			<folder_id>X70 PLUS, I Рестайлинг</folder_id>
+			<modification_id>1.6 AMT (190 л.с.)</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Luxury</complectation_name>
+			<wheel>левый</wheel>
+			<color>Белый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2025</year>
+			<price>3299900</price>
+			<credit_discount>400000</credit_discount>
+			<insurance_discount>50000</insurance_discount>
+			<tradein_discount>200000</tradein_discount>
+			<optional_discount>0</optional_discount>
+			<currency>RUR</currency>
+			<registry_year>2025</registry_year>
+			<vin>EC37LUGD4SC000331</vin>
+			<description>Абсолютно новый бренд JETOUR на ваших дорогах
+ 
+ Почему стоит покупать JETOUR в АЛЬФА: 
+- Автомобили в наличии и с ПТС   
+- Персональный менеджер во время всех этапов сделки 
+- Расположение рядом с центром города, удобная парковка 
+- Бесплатный тест-драйв 
+- Оформление автомобиля в день обращения 
+- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
+- Индивидуальный подход  к каждому клиенту
+ 
+ Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
+			<images />
+		<max_discount>1000000</max_discount><priceWithDiscount>2299900</priceWithDiscount><sale_price>2299900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x70-plus-i-рестайлинг-16-amt-190-лс-luxury-белый-2025/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>X90 PLUS</folder_id>
