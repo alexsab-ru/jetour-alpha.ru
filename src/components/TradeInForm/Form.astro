@@ -2,7 +2,15 @@
 import Button from '@/components/Button/Button.astro';
 import Input from '@/components/Input.astro';
 import Checkbox from '@/components/Checkbox/Checkbox.astro';
+import FormSelect from '@/components/FormSelect.astro';
 import { AGREE_LABEL } from '@/const';
+
+const gearboxOptions = [
+  {id: 'option1', name: 'Механическая'},
+  {id: 'option2', name: 'Автоматическая'},
+  {id: 'option3', name: 'Вариатор'},
+  {id: 'option4', name: 'Роботизированная коробка передач'}
+];
 ---
 <form class="flex flex-col gap-4 max-w-[500px] mx-auto">
   <input type="hidden" name="form" value="tradeInForm" />
@@ -18,7 +26,7 @@ import { AGREE_LABEL } from '@/const';
   <Input name="brandAndModel" classes="border-gray-100" required placeholder="Марка и модель вашего авто*" />
   <Input name="year" classes="border-gray-100" required placeholder="Год выпуска*" />
   <Input name="mileage" classes="border-gray-100" required placeholder="Пробег*" />
-  <Input name="gearbox" classes="border-gray-100" required placeholder="Коробка передач*" />
+  <FormSelect name="gearbox" required placeholder="Коробка передач*" options={gearboxOptions} />
   <Input name="cost" classes="border-gray-100" required placeholder="Желаемая стоимость*" />
   <p><strong>Желаемый автомобиль</strong></p>
   <Input name="newBrandAndModel" classes="border-gray-100" placeholder="Марка и модель желаемого авто" />
