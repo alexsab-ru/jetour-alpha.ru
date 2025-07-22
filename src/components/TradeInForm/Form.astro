@@ -1,8 +1,9 @@
 ---
 import Button from '@/components/Button/Button.astro';
 import Input from '@/components/Input.astro';
+import Checkbox from '@/components/Checkbox/Checkbox.astro';
+import { AGREE_LABEL } from '@/const';
 ---
-<h3 class="text-center font-bold !text-3xl sm:!text-4xl !mb-8">Оценка вашего автомобиля</h3>
 <form class="flex flex-col gap-4 max-w-[500px] mx-auto">
   <input type="hidden" name="form" value="tradeInForm" />
   <input
@@ -13,10 +14,33 @@ import Input from '@/components/Input.astro';
     placeholder="mail@example.com"
 />
   
-  <Input name="brandAndModel" classes="border-gray-100" placeholder="Марка и модель вашего авто" />
-  <Input name="year" classes="border-gray-100" placeholder="Год выпуска" />
-  <Input name="mileage" classes="border-gray-100" placeholder="Пробег" />
-  <Input name="estimatedCost" classes="border-gray-100" placeholder="Оценочная стоимость" />
+  <p><strong>Ваш автомобиль</strong></p>
+  <Input name="brandAndModel" classes="border-gray-100" required errorClasses="text-red-500" errorText="Поле обязательно к заполнению" placeholder="Марка и модель вашего авто*" />
+  <Input name="year" classes="border-gray-100" required placeholder="Год выпуска*" />
+  <Input name="mileage" classes="border-gray-100" required placeholder="Пробег*" />
+  <Input name="gearbox" classes="border-gray-100" required placeholder="Коробка передач*" />
+  <Input name="cost" classes="border-gray-100" required placeholder="Желаемая стоимость*" />
+  <p><strong>Желаемый автомобиль</strong></p>
+  <Input name="newBrandAndModel" classes="border-gray-100" placeholder="Марка и модель желаемого авто" />
+  <Input name="name" classes="border-gray-100" placeholder="Ваше имя" />
+  <Input
+    type="tel"
+    name="phone"
+    classes="border-gray-100"
+    placeholder="+7 (999) 999-99-99*"
+    required
+    errorClasses="text-red-500"
+  />
+  <textarea name="comment" class="border-2 transition-all focus:border-accent-500 px-4 py-2.5 outline-none w-full text-black border-gray-100" placeholder="Комментарий"></textarea>
+
+  <Checkbox
+    name="agree"
+    label={AGREE_LABEL}
+    color="black"
+    required
+    errorClasses="text-red-500 w-full"
+    errorText="Чтобы продолжить, установите флажок"
+  />
 
   <Button view="form-button" classes="w-full" title="Отправить" />
 </form>
