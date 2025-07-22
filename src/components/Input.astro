@@ -7,6 +7,8 @@ interface Props {
     required?: boolean,
     errorText?: string,
     errorClasses?: string,
+    list?: string,
+    listOptions?: string[] | []
 }
 const {
     type = 'text',
@@ -15,7 +17,9 @@ const {
     placeholder = 'Введите значение',
     required = false,
     errorText = '',
-    errorClasses = '' 
+    errorClasses = '',
+    list = '',
+    listOptions=[]
 } = Astro.props
 ---
 
@@ -26,10 +30,20 @@ const {
         class={`border-2 transition-all focus:border-accent-500 px-4 py-2.5 outline-none w-full text-black ${classes}`} 
         placeholder={placeholder}
         required={required}
+        list={list}
     >
 {
     required ? (
     <div class={`error-message text-xs hidden ${name} ${errorClasses}`}>{errorText}</div>
     ) : ('')
+}
+{
+    list.length ? (
+        <datalist id={list}>
+            {
+                listOptions.map(option => <option value={option} />)
+            }
+        </datalist>
+    ) : null
 }
 </div>
