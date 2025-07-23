@@ -1,8 +1,23 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import TradeInForm from '@/components/TradeInForm/TradeInForm.astro';
+import Button from '@/components/Button/Button.astro';
+import settings from '@/data/settings.json';
+const { brand } = settings;
+const benefit = '450 000';
 ---
 
-<Layout title={`JETOUR Trade In`} description=" Оцените свой автомобиль и получите самые выгодные условия на покупку нового автомобиля">
-	<div class="container py-10"><TradeInForm /></div>
+<Layout title={`${brand} Trade In`} description=" Оцените свой автомобиль и получите самые выгодные условия на покупку нового автомобиля">
+	<div class="bg-[#121416] md:relative md:h-[400px] bg-[url('https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/1.webp')] bg-no-repeat bg-center bg-cover">
+		<div class="container">
+			<div class="py-12 text-white md:absolute md:bottom-0 xl:pb-20">
+				<h1 class="text-4xl md:w-[550px] font-bold mb-8">{`Получите новый автомобиль ${brand} по программе Trade-in с выгодой до ${benefit} рублей!`}</h1>
+				<p class="mb-8 md:w-1/2 xl:w-full"><Button classes="btn" view="scroll-link" url="#tradeInForm" title={`Получить выгоду ${benefit} рублей`} /></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container py-10" id="tradeInForm">
+		<TradeInForm />
+	</div>
 </Layout>
