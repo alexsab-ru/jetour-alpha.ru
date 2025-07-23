@@ -3,7 +3,6 @@ import Layout from '@/layouts/Layout.astro';
 import TradeInForm from '@/components/TradeInForm/TradeInForm.astro';
 import Button from '@/components/Button/Button.astro';
 import settings from '@/data/settings.json';
-import CardMedia from '@/components/CardMedia/CardMedia.astro';
 const { brand } = settings;
 const benefit = '450 000';
 ---
@@ -27,7 +26,7 @@ const benefit = '450 000';
 					<img class="w-full rounded-2xl" src="https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/1.webp" alt={`Получите новый автомобиль ${brand} по программе Trade-in с выгодой до ${benefit} рублей!`} />
 				</div>
 				<div class="md:w-1/2">
-					<ul class="ml-4 lg:text-lg">
+					<ul class="lg:text-lg">
 						<li class="flex gap-2 py-3 items-center"><span class="text-white text-2xl font-bold w-[40px] h-[40px] rounded-[50%] bg-accent-500 flex-shrink-0 flex justify-center items-center">1</span>Оставляете заявку на нашем сайте. Договариваетесь с менеджером о встрече в салоне.</li>
 						<li class="flex gap-2 py-3 items-center"><span class="text-white text-2xl font-bold w-[40px] h-[40px] rounded-[50%] bg-accent-500 flex-shrink-0 flex justify-center items-center">2</span>Выбираете новый автомобиль.</li>
 						<li class="flex gap-2 py-3 items-center"><span class="text-white text-2xl font-bold w-[40px] h-[40px] rounded-[50%] bg-accent-500 flex-shrink-0 flex justify-center items-center">3</span>Мы оцениваем Ваш а/м, называем стоимость, которая ВЫШЕ рыночной!</li>
@@ -36,6 +35,7 @@ const benefit = '450 000';
 					</ol>
 				</div>
 			</div>
+			<p class="text-sm text-gray-500 mt-12">* Обращаем ваше внимание на то, что данная информация носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями ч. 2 ст. 437 Гражданского кодекса Российской Федерации. Для получения подробной информации о стоимости автомобилей, пожалуйста, обращайтесь к менеджерам автосалона.</p>
 		</div>
 	</section>
 	
