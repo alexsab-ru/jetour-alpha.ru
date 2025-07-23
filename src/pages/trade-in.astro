@@ -3,19 +3,41 @@ import Layout from '@/layouts/Layout.astro';
 import TradeInForm from '@/components/TradeInForm/TradeInForm.astro';
 import Button from '@/components/Button/Button.astro';
 import settings from '@/data/settings.json';
+import CardMedia from '@/components/CardMedia/CardMedia.astro';
 const { brand } = settings;
 const benefit = '450 000';
 ---
 
 <Layout title={`${brand} Trade In`} description=" Оцените свой автомобиль и получите самые выгодные условия на покупку нового автомобиля">
-	<div class="bg-[#121416] md:relative md:h-[400px] bg-[url('https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/1.webp')] bg-no-repeat bg-center bg-cover">
+	<section class="bg-[#121416] md:relative md:h-[400px] bg-[url('https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/1.webp')] bg-no-repeat bg-center bg-cover">
 		<div class="container">
 			<div class="py-12 text-white md:absolute md:bottom-0 xl:pb-20">
 				<h1 class="text-4xl md:w-[550px] font-bold mb-8">{`Получите новый автомобиль ${brand} по программе Trade-in с выгодой до ${benefit} рублей!`}</h1>
 				<p class="mb-8 md:w-1/2 xl:w-full"><Button classes="btn" view="scroll-link" url="#tradeInForm" title={`Получить выгоду ${benefit} рублей`} /></p>
 			</div>
 		</div>
-	</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<h2>Trade-in в 5 шагов</h2>
+			<p class="text-lg mt-8 text-center">{`Мечтаете о новом автомобиле со скидкой до ${benefit} рублей? Воспользуйтесь услугой Trade-in! Просто сдайте свой старый автомобиль и мы обменяем его на новый всего за неделю!*`}</p>
+			<div class="flex flex-col md:flex-row-reverse mt-6 mb-4 gap-5 md:mt-12">
+				<div class="md:w-1/2">
+					<img class="w-full rounded-xl" src="https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/1.webp" alt={`Получите новый автомобиль ${brand} по программе Trade-in с выгодой до ${benefit} рублей!`} />
+				</div>
+				<div class="md:w-1/2">
+					<ol class="list-decimal ml-4 lg:text-lg">
+						<li>Оставляете заявку на нашем сайте. Договариваетесь с менеджером о встрече в салоне.</li>
+						<li>Выбираете новый автомобиль.</li>
+						<li>Мы оцениваем Ваш а/м, называем стоимость, которая ВЫШЕ рыночной!</li>
+						<li>Оформляете все документы сразу.</li>
+						<li>Уезжаете на НОВОМ автомобиле</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 	<div class="container py-10" id="tradeInForm">
 		<TradeInForm />
