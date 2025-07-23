@@ -9,7 +9,7 @@ interface Props {
 const {name, placeholder = 'Выберите значение', required = false, errorMessage = 'Это поле обязательное', options = []} = Astro.props
 import { Icon } from 'astro-icon/components';
 ---
-<div x-data={ `{
+<div class="relative" x-data={ `{
 		open: false, 
 		options: ${JSON.stringify(options)},
 		placeholder: '${placeholder}',
@@ -23,7 +23,7 @@ import { Icon } from 'astro-icon/components';
 		}
 	}` }
 	x-cloak>
-	<input type="hidden" name={name} :value="value" {...(required ? { required: true } : {})} />
+	<input type="text" class="h-[1px] w-full p-0 absolute opacity-0 bottom-[-1px]" name={name} :value="value" {...(required ? { required: true } : {})} />
 	<div 
 		class="relative min-w-[160px] xs:w-full sm:min-w-[250px] w-auto" 
 		@click.outside="open = false"
