@@ -2,6 +2,7 @@
 import Button from '@/components/Button/Button.astro';
 import Input from '@/components/Input.astro';
 import Checkbox from '@/components/Checkbox/Checkbox.astro';
+import Textarea from '../Textarea/Textarea.astro';
 import FormSelect from '@/components/FormSelect.astro';
 import { AGREE_LABEL } from '@/const';
 import modelsData from '@/data/models.json';
@@ -44,7 +45,7 @@ const gearboxOptions = [
     required
     errorClasses="text-red-500"
   />
-  <textarea name="comment" class="border-2 transition-all focus:border-accent-500 px-4 py-2.5 outline-none w-full text-black border-gray-100" placeholder="Комментарий"></textarea>
+  <Textarea name="comment" classes="border-gray-100" placeholder="Комментарий" />
 
   <Checkbox
     name="agree"
