@@ -24,7 +24,7 @@ const benefit = '450 000';
 			<p class="text-lg mt-8 text-center">{`Мечтаете о новом автомобиле со скидкой до ${benefit} рублей? Воспользуйтесь услугой Trade-in! Просто сдайте свой старый автомобиль и мы обменяем его на новый всего за неделю!*`}</p>
 			<div class="flex flex-col md:flex-row-reverse mt-6 mb-4 gap-5 md:mt-12">
 				<div class="md:w-1/2">
-					<img class="w-full rounded-xl" src="https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/1.webp" alt={`Получите новый автомобиль ${brand} по программе Trade-in с выгодой до ${benefit} рублей!`} />
+					<img class="w-full rounded-2xl" src="https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/1.webp" alt={`Получите новый автомобиль ${brand} по программе Trade-in с выгодой до ${benefit} рублей!`} />
 				</div>
 				<div class="md:w-1/2">
 					<ol class="list-decimal ml-4 lg:text-lg">
@@ -39,7 +39,13 @@ const benefit = '450 000';
 		</div>
 	</section>
 	
-	<div class="container py-10" id="tradeInForm">
-		<TradeInForm />
-	</div>
+	<section id="tradeInForm" class="bg-[url('https://cdn.alexsab.ru/specials/jetour/jetour-vigoda/jetour-leto-desktop.webp')] bg-no-repeat bg-center bg-cover">
+		<div class="container">
+			<h2 class="text-center text-white mb-12">{`Заполните форму и получите предложение со скидкой до ${benefit} рублей на новый автомобиль`}</h2>
+			<p class="text-center text-xl text-white mb-12">Мы подготовим для вас индивидуальное ценовое предложение на понравившуюся модель по программе Trade-in</p>
+			<div class="flex justify-center">
+				<TradeInForm classes="md:w-1/2 bg-white/95 rounded-2xl px-4 py-8" />
+			</div>
+		</div>
+	</section>
 </Layout>
