@@ -1,15 +1,9 @@
 [
   {
     "brand": "JETOUR",
-    "model": "Dashing, I",
+    "model": "Dashing",
     "price": 1889900,
     "benefit": 1180000
-  },
-  {
-    "brand": "JETOUR",
-    "model": "X70 PLUS, I",
-    "price": 1850000,
-    "benefit": 900000
   },
   {
     "brand": "JETOUR",
@@ -19,8 +13,8 @@
   },
   {
     "brand": "JETOUR",
-    "model": "X70 PLUS, I Рестайлинг",
-    "price": 2299900,
+    "model": "X70 PLUS",
+    "price": 1850000,
     "benefit": 1000000
   },
   {
