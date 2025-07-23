@@ -7,8 +7,9 @@ interface Props {
     required?: boolean,
     errorText?: string,
     errorClasses?: string,
+    autocomplete?: string,
     list?: string,
-    listOptions?: string[] | []
+    listOptions?: {id: string | number, name: string}[] | []
 }
 const {
     type = 'text',
@@ -16,6 +17,7 @@ const {
     classes = '',
     placeholder = 'Введите значение',
     required = false,
+    autocomplete = 'on',
     errorText = '',
     errorClasses = '',
     list = '',
@@ -30,6 +32,7 @@ const {
         class={`border-2 transition-all focus:border-accent-500 px-4 py-2.5 outline-none w-full text-black ${classes}`} 
         placeholder={placeholder}
         required={required}
+        autocomplete={autocomplete}
         list={list}
     >
 {
@@ -41,7 +44,7 @@ const {
     list.length ? (
         <datalist id={list}>
             {
-                listOptions.map(option => <option value={option} />)
+                listOptions.map(option => <option value={option.name} />)
             }
         </datalist>
     ) : null

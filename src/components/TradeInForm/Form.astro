@@ -4,7 +4,11 @@ import Input from '@/components/Input.astro';
 import Checkbox from '@/components/Checkbox/Checkbox.astro';
 import FormSelect from '@/components/FormSelect.astro';
 import { AGREE_LABEL } from '@/const';
-import { brands } from './brandsAndModels';
+import modelsData from '@/data/models.json';
+const options = modelsData.services.map(({ id, name, mark_id }) => ({ 
+	id: `${mark_id}-${id}`.toLowerCase(), 
+	name: `${mark_id} ${name}` 
+}));
 
 const gearboxOptions = [
   {id: 'option1', name: 'Механическая'},
@@ -24,14 +28,13 @@ const gearboxOptions = [
 />
   
   <p><strong>Ваш автомобиль</strong></p>
-  <Input name="brand" list="brands" listOptions={brands}  classes="border-gray-100" required placeholder="Марка вашего авто*" />
-  <Input name="model" list="models" classes="border-gray-100" required placeholder="Модель вашего авто*" />
+  <Input name="brandAndModel" classes="border-gray-100" required placeholder="Марка и модель вашего авто*" />
   <Input name="year" classes="border-gray-100" required placeholder="Год выпуска*" />
   <Input name="mileage" classes="border-gray-100" required placeholder="Пробег*" />
   <FormSelect name="gearbox" required placeholder="Коробка передач*" options={gearboxOptions} />
   <Input name="cost" classes="border-gray-100" required placeholder="Желаемая стоимость*" />
   <p><strong>Желаемый автомобиль</strong></p>
-  <Input name="newBrandAndModel" classes="border-gray-100" placeholder="Марка и модель желаемого авто" />
+  <Input name="model" list="models" listOptions={options} autocomplete="off" classes="border-gray-100" required placeholder="Модель*" />
   <Input name="name" classes="border-gray-100" placeholder="Ваше имя" />
   <Input
     type="tel"
