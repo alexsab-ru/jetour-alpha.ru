@@ -778,7 +778,7 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB7RBD10471</vin>
+			<vin>HJRPBGJB9RBD05871</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -813,7 +813,7 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB9RBD05871</vin>
+			<vin>HJRPBGJB7RBD10471</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -828,41 +828,6 @@
  Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
 			<images />
 		<max_discount>900000</max_discount><priceWithDiscount>3549000</priceWithDiscount><sale_price>3549000</sale_price><url>https://jetour-alpha.ru/cars/jetour-t2-20-at-245-лс-4wd-discovery-коричневый-2024/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>X70 PLUS, I</folder_id>
-			<modification_id>1.5 CVT (156 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Comfort</complectation_name>
-			<wheel>левый</wheel>
-			<color>Белый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2025</year>
-			<price>2999900</price>
-			<credit_discount>450000</credit_discount>
-			<insurance_discount>50000</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>150000</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2025</registry_year>
-			<vin>EC37CUGD8SC000994</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images />
-		<max_discount>900000</max_discount><priceWithDiscount>2099900</priceWithDiscount><sale_price>2099900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x70-plus-i-15-cvt-156-лс-comfort-белый-2025/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>X70 PLUS, I Рестайлинг</folder_id>
