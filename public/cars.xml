@@ -443,41 +443,6 @@
 		<max_discount>1130000</max_discount><priceWithDiscount>2519000</priceWithDiscount><sale_price>2519000</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-at-185-лс-4wd-luxury-зеленый-2024/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
-			<folder_id>Dashing, I</folder_id>
-			<modification_id>1.6 AT (185 л.с.) 4WD</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Luxury</complectation_name>
-			<wheel>левый</wheel>
-			<color>ЗЕЛЕНЫЙ</color>
-			<metallic>да</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2024</year>
-			<price>3649000</price>
-			<credit_discount>400000</credit_discount>
-			<insurance_discount>50000</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>430000</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2024</registry_year>
-			<vin>LVTDD21B8RD314436</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images />
-		<max_discount>1130000</max_discount><priceWithDiscount>2519000</priceWithDiscount><sale_price>2519000</sale_price><url>https://jetour-alpha.ru/cars/jetour-dashing-i-16-at-185-лс-4wd-luxury-зеленый-2024/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
 			<folder_id>X70 PLUS, I</folder_id>
 			<modification_id>1.5 CVT (156 л.с.)</modification_id>
 			<body_type>Внедорожник 5 дв.</body_type>
@@ -642,7 +607,7 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB9RBD05871</vin>
+			<vin>HJRPBGJB7RBD10471</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -677,7 +642,7 @@
 			<optional_discount>0</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2024</registry_year>
-			<vin>HJRPBGJB7RBD10471</vin>
+			<vin>HJRPBGJB9RBD05871</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
  Почему стоит покупать JETOUR в АЛЬФА: 
@@ -852,51 +817,6 @@
 			<optional_discount>600000</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2023</registry_year>
-			<vin>HJRPBGJB1PF074824</vin>
-			<description>Абсолютно новый бренд JETOUR на ваших дорогах
- 
- Почему стоит покупать JETOUR в АЛЬФА: 
-- Автомобили в наличии и с ПТС   
-- Персональный менеджер во время всех этапов сделки 
-- Расположение рядом с центром города, удобная парковка 
-- Бесплатный тест-драйв 
-- Оформление автомобиля в день обращения 
-- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
-- Индивидуальный подход  к каждому клиенту
- 
- Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
-			<images>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/20dcb88c2c17ed2879d80fcd94ed31d6.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/a61c2b34007796cc1bac8a8d861b2cca.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/cb951355fed490e31355c7d3d9b8e853.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/1b00d5f27b83e36a1c612fc706417ae2.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/39ff94bb213b4ee163ad79f4ac48f38f.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/a328ec8c72df5fb86d09c6f14b88ee86.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/fe564a7e8637f9baf1cee2c587530d6c.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/5b587778e7bc1b942b2000df445d602f.jpg</image>
-				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/2f84cf84bb7e27856ce5c0e2f5b143d2.jpg</image>
-			</images>
-		<max_discount>1300000</max_discount><priceWithDiscount>2419900</priceWithDiscount><sale_price>2419900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
-		<car>
-			<mark_id>JETOUR</mark_id>
-			<folder_id>X90 PLUS</folder_id>
-			<modification_id>2.0 AMT (244 л.с.)</modification_id>
-			<body_type>Внедорожник 5 дв.</body_type>
-			<complectation_name>Elite</complectation_name>
-			<wheel>левый</wheel>
-			<color>Белый</color>
-			<metallic>нет</metallic>
-			<availability>в наличии</availability>
-			<custom>растаможен</custom>
-			<owners_number>Не было владельцев</owners_number>
-			<year>2023</year>
-			<price>3719900</price>
-			<credit_discount>450000</credit_discount>
-			<insurance_discount>0</insurance_discount>
-			<tradein_discount>250000</tradein_discount>
-			<optional_discount>600000</optional_discount>
-			<currency>RUR</currency>
-			<registry_year>2023</registry_year>
 			<vin>HJRPBGJB6PF079257</vin>
 			<description>Абсолютно новый бренд JETOUR на ваших дорогах
  
@@ -921,6 +841,51 @@
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB6PF079257/3bcb72ce59c54b748bd82a7b1fbbbc99.jpg</image>
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB6PF079257/2c0f003d204c94bc77aad0512fff11e2.jpg</image>
 				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB6PF079257/f6a65f6fb52430cbd7654f7de574d3c3.jpg</image>
+			</images>
+		<max_discount>1300000</max_discount><priceWithDiscount>2419900</priceWithDiscount><sale_price>2419900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
+		<car>
+			<mark_id>JETOUR</mark_id>
+			<folder_id>X90 PLUS</folder_id>
+			<modification_id>2.0 AMT (244 л.с.)</modification_id>
+			<body_type>Внедорожник 5 дв.</body_type>
+			<complectation_name>Elite</complectation_name>
+			<wheel>левый</wheel>
+			<color>Белый</color>
+			<metallic>нет</metallic>
+			<availability>в наличии</availability>
+			<custom>растаможен</custom>
+			<owners_number>Не было владельцев</owners_number>
+			<year>2023</year>
+			<price>3719900</price>
+			<credit_discount>450000</credit_discount>
+			<insurance_discount>0</insurance_discount>
+			<tradein_discount>250000</tradein_discount>
+			<optional_discount>600000</optional_discount>
+			<currency>RUR</currency>
+			<registry_year>2023</registry_year>
+			<vin>HJRPBGJB1PF074824</vin>
+			<description>Абсолютно новый бренд JETOUR на ваших дорогах
+ 
+ Почему стоит покупать JETOUR в АЛЬФА: 
+- Автомобили в наличии и с ПТС   
+- Персональный менеджер во время всех этапов сделки 
+- Расположение рядом с центром города, удобная парковка 
+- Бесплатный тест-драйв 
+- Оформление автомобиля в день обращения 
+- Скидка по программе ТРЕЙД-ИН + АВТОКРЕДИТ
+- Индивидуальный подход  к каждому клиенту
+ 
+ Не выбирай между качеством и выгодой. У нас вы сможете получить всё и сразу.</description>
+			<images>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/20dcb88c2c17ed2879d80fcd94ed31d6.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/a61c2b34007796cc1bac8a8d861b2cca.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/cb951355fed490e31355c7d3d9b8e853.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/1b00d5f27b83e36a1c612fc706417ae2.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/39ff94bb213b4ee163ad79f4ac48f38f.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/a328ec8c72df5fb86d09c6f14b88ee86.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/fe564a7e8637f9baf1cee2c587530d6c.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/5b587778e7bc1b942b2000df445d602f.jpg</image>
+				<image>https://cars.avto-provereno.ru/feeds//HJRPBGJB1PF074824/2f84cf84bb7e27856ce5c0e2f5b143d2.jpg</image>
 			</images>
 		<max_discount>1300000</max_discount><priceWithDiscount>2419900</priceWithDiscount><sale_price>2419900</sale_price><url>https://jetour-alpha.ru/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/</url></car>
 		<car>
