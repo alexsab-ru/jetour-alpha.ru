@@ -458,7 +458,7 @@
 			<credit_discount>239000</credit_discount>
 			<insurance_discount>0</insurance_discount>
 			<tradein_discount>350000</tradein_discount>
-			<optional_discount>0</optional_discount>
+			<optional_discount>200000</optional_discount>
 			<currency>RUR</currency>
 			<registry_year>2022</registry_year>
 			<vin>LDNHC8FC0N0000701</vin>
@@ -481,7 +481,7 @@
 				<image>https://cars.avto-provereno.ru/feeds//LDNHC8FC0N0000701/9e5963800fbc466d6a5aa4b529cc2e4e.jpeg</image>
 				<image>https://cars.avto-provereno.ru/feeds//LDNHC8FC0N0000701/6c8ecc53f3eef822cc3fcf2c3f9e2b34.jpeg</image>
 			</images>
-		<max_discount>589000</max_discount><priceWithDiscount>1850000</priceWithDiscount><sale_price>1850000</sale_price><url>https://jetour-alpha.ru/cars/jetour-x70-plus-i-15-cvt-156-лс-comfort-белый-2022/</url></car>
+		<max_discount>789000</max_discount><priceWithDiscount>1650000</priceWithDiscount><sale_price>1650000</sale_price><url>https://jetour-alpha.ru/cars/jetour-x70-plus-i-15-cvt-156-лс-comfort-белый-2022/</url></car>
 		<car>
 			<mark_id>JETOUR</mark_id>
 			<folder_id>T2</folder_id>
